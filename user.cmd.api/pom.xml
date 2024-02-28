@@ -13,6 +13,7 @@
     <groupId>nl.pelssersconsultancy</groupId>
     <artifactId>user.cmd.api</artifactId>
     <name>user.cmd.api</name>
+    <version>1.0.0</version>
     <description>User Command API Project</description>
 
     <dependencies>
@@ -38,6 +39,18 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.axonframework</groupId>
+            <artifactId>axon-spring-boot-starter</artifactId>
+            <version>4.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>nl.pelssersconsultancy</groupId>
+            <artifactId>user.core</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
